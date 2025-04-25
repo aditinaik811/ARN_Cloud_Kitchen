@@ -1,0 +1,136 @@
+body{
+    font-family: cursive;
+}
+
+.img{
+    width:250px;
+    height:250px;
+    border:5px solid olive;
+}
+
+.img_box{
+    display:inline-table;
+    height:550px;
+    width:250px;
+    background-color: blanchedalmond;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+.btn{
+    background-color:firebrick;
+    color:white;
+    border-radius: 30px;
+    margin-left:80px;
+    padding:10px;
+    font-size:x-large;
+}
+
+.btns{
+    background-color: green;
+    color:white;
+    border-radius: 30px;
+    margin-left:80px;
+    padding:10px;
+    font-size:x-large;
+    margin-bottom: 30px;
+
+}
+#main{
+    margin: 200px;
+}
+
+
+#heading{
+    text-align: center;
+    color:white;
+    border:5px solid pink; 
+    border-radius: 20px;
+    background-color: crimson;
+    font-size: 60px;
+
+}
+#nav
+{
+    background-color:royalblue;
+    display:flex;
+    padding:10px;
+    gap:100px;
+    margin:50px;
+    border-radius: 20px;
+    
+}
+
+a{
+    color:white;
+    margin-left:80px;
+    font-size:18px;
+    font-size:x-large;
+}
+
+h4{
+    text-align: center;
+    font-size:xx-large;
+}
+
+.extra{
+    margin-left: 300px;
+    color: white;
+    background-color: cadetblue;
+    border:10px solid pink;
+    padding:10px;
+    border-radius: 30px;
+    font-size: larger;
+}
+
+#price{
+    margin-left:380px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 50px;
+    padding:40px;
+    font-size: 34px;
+}
+
+
+#item-list{
+    font-size: xx-large;
+    
+}
+
+h2{
+    background-color: Red;
+    color: white;
+    text-align: center;
+    padding:20px;
+    font-size: xx-large;
+    border-radius: 100px;
+    
+}
+
+#sl{
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    border-radius: 100px;
+    padding:20px;
+    font-size: xx-large;
+}
+
+#confirm-order-btn{
+    background-color: fuchsia;
+    color: white;
+    margin-left: 720px;
+    font-size: xx-large;
+    padding:30px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+#confirm_message{
+    background-color: green;
+    border-radius: 50px;
+    color: white;
+    font-size: xx-large;
+    padding:50px;
+}

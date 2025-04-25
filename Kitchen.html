@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Kitchen.css">
+    <script src="Kitchen.js"></script>
+</head>
+<body>
+    <div>
+        <div>
+            <h1 id="heading">Aditi's Cloud Kitchen</h1>
+            <div id="nav">
+                <a href="#">Home</a>
+                <a href="#">Login</a>
+                <a href="#">Contact us</a>
+                <a href="#">About us</a>
+                <a href="#">Founder</a>
+                <a href="#">Category</a>
+                <a href="#">Feedback</a>
+                <img src="Images/add_to_cart.webp" height="50px" width="50px" alt="">
+            </div>
+        </div>
+
+        <div id="main">
+            <div class="img_box"> 
+                <img class="img" src="Images/img_1.jpg" alt="img_1"/>
+                <h4>Dosa Chutney</h4>
+                <button class="btns">Rs 40</button><br/>
+                <button value="40" class="btn" onclick="addToCart('Dosa Chutney', 40)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_2.jpg" alt="img_2"/>
+                <h4>Puranpoli</h4>
+                <button class="btns">Rs 150</button><br/>
+                <button value="150" class="btn" onclick="addToCart('Puranpoli', 150)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_3.jpg" alt="img_3"/>
+                <h4>Fish Thali</h4>
+                <button class="btns">Rs 60</button><br/>
+                <button value="60" class="btn" onclick="addToCart('Fish Thali', 60)">Add to cart</button>
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_4.jpg" alt="img_4"/>
+                <h4>Veg Pizza</h4>
+                <button class="btns">Rs 299</button><br/>
+                <button value="299" class="btn" onclick="addToCart('Veg Pizza', 299)">Add to cart</button>
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_5.jpg" alt="img_5"/>
+                <h4>Korean Chicken</h4>
+                <button class="btns">Rs 349</button><br/>
+                <button value="349" class="btn" onclick="addToCart('Korean Chicken', 349)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_6.jpg" alt="img_6"/>
+                <h4>Pav Bhaji</h4>
+                <button class="btns">Rs 60</button><br/>
+                <button value="60" class="btn" onclick="addToCart('Pav Bhaji', 60)">Add to cart</button> 
+            </div>
+
+            <div class=" img_box"> 
+                <img class="img" src="Images/img_7.jpg" alt="img_7"/>
+                <h4>Mackeral Fry</h4>
+                <button class="btns">Rs 160</button><br/>
+                <button value="160" class="btn" onclick="addToCart('Mackeral Fry', 160)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_8.jpg" alt="img_8"/>
+                <h4>Chitranna</h4>
+                <button class="btns">Rs 200</button><br/>
+                <button value="200" class="btn" onclick="addToCart('Chitranna', 200)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_9.jpg" alt="img_9"/>
+                <h4>Cucumber Idli</h4>
+                <button class="btns">Rs 50</button><br/>
+                <button value="50" class="btn" onclick="addToCart('Cucumber Idli', 50)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_10.jpg" alt="img_10"/>
+                <h4>Fish Thali</h4>
+                <button class="btns">Rs 150</button><br/>
+                <button value="150" class="btn" onclick="addToCart('Fish Thali', 150)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_11.jpg" alt="img_11"/>
+                <h4>Idli Sambar</h4>
+                <button class="btns">Rs 60</button><br/>
+                <button value="60" class="btn" onclick="addToCart('Idli Sambar', 60)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_12.jpg" alt="img_12"/>
+                <h4>Idli Tomato Bhaji</h4>
+                <button class="btns">Rs 70</button><br/>
+                <button value="70" class="btn" onclick="addToCart('Idli Tomato Bhaji', 70)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_13.jpg" alt="img_13"/>
+                <h4>Veg Thali</h4>
+                <button class="btns">Rs 80</button><br/>
+                <button value="80" class="btn" onclick="addToCart('Veg Thali', 80)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_14.jpg" alt="img_14"/>
+                <h4>Sweet Corn</h4>
+                <button class="btns">Rs 40</button><br/>
+                <button value="40" class="btn" onclick="addToCart('Sweet Corn', 40)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_15.jpg" alt="img_15"/>
+                <h4>Roti Thali</h4>
+                <button class="btns">Rs 150</button><br/>
+                <button value="150" class="btn" onclick="addToCart('Roti Thali', 150)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_16.jpg" alt="img_16"/>
+                <h4>Crab Soup</h4>
+                <button class="btns">Rs 50</button><br/>
+                <button value="50" class="btn" onclick="addToCart('Crab Soup', 50)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_17.jpg" alt="img_17"/>
+                <h4>Modak</h4>
+                <button class="btns">Rs 120</button><br/>
+                <button value="120" class="btn" onclick="addToCart('Modak', 120)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_18.jpg" alt="img_18"/>
+                <h4>Prawns Fry</h4>
+                <button class="btns">Rs 80</button><br/>
+                <button value="80" class="btn" onclick="addToCart('Prawns Fry', 80)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_19.jpg" alt="img_19"/>
+                <h4>Prawns Manchuri</h4>
+                <button class="btns">Rs 150</button><br/>
+                <button value="150" class="btn" onclick="addToCart('Prawns Manchuri', 150)">Add to cart</button> 
+            </div>
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_20.jpg" alt="img_20"/>
+                <h4>Chicken Thali</h4>
+                <button class="btns">Rs 200</button><br/>
+                <button value="200" class="btn" onclick="addToCart('Chicken Thali', 200)">Add to cart</button> 
+            </div>
+
+
+            <div class="img_box"> 
+                <img class="img" src="Images/img_21.jpg" alt="img_21"/>
+                <h4>Moong Juice</h4>
+                <button class="btns">Rs 60</button><br/>
+                <button value="60" class="btn" onclick="addToCart('Moong Juice', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_22.jpg" alt="img_22"/>
+                <h4>Watermelon Juice</h4>
+                <button class="btns">Rs 40</button><br/>
+                <button value="40" class="btn" onclick="addToCart('Watermelon Juice', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_23.jpg" alt="img_23"/>
+                <h4>Khichdi</h4>
+                <button class="btns">Rs 40</button><br/>
+                <button value="40" class="btn" onclick="addToCart('Khichdi', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_24.jpg" alt="img_24"/>
+                <h4>Clamps Sukka</h4>
+                <button class="btns">Rs 80</button><br/>
+                <button value="80" class="btn" onclick="addToCart('Clamps Sukka', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_25.jpg" alt="img_25"/>
+                <h4>Apple juice</h4>
+                <button class="btns">Rs 79</button><br/>
+                <button value="79" class="btn" onclick="addToCart('Apple juice', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_26.jpg" alt="img_26"/>
+                <h4>Buttery Crabs</h4>
+                <button class="btns">Rs 249</button><br/>
+                <button value="249" class="btn" onclick="addToCart('Buttery Crabs', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_27.jpg" alt="img_27"/>
+                <h4>Fish Fry</h4>
+                <button class="btns">Rs 120</button><br/>
+                <button value="120" class="btn" onclick="addToCart('Fish Fry', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_28.jpg" alt="img_28"/>
+                <h4>Shev Puri</h4>
+                <button class="btns">Rs 50</button><br/>
+                <button value="50" class="btn" onclick="addToCart('Shev Puri', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_29.jpg" alt="img_29"/>
+                <h4>Brinjal Fry</h4>
+                <button class="btns">Rs 99</button><br/>
+                <button value="99" class="btn" onclick="addToCart('Brinjal Fry', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_30.jpg" alt="img_30"/>
+                <h4>ButterScotch Cake</h4>
+                <button class="btns">Rs 500</button><br/>
+                <button value="500" class="btn" onclick="addToCart('ButterScotch Cake', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_31.jpg" alt="img_31"/>
+                <h4>Idli Chutney</h4>
+                <button class="btns">Rs 49</button><br/>
+                <button value="49" class="btn" onclick="addToCart('Idli Chutney', 100,'btn')">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_32.jpg" alt="img_32"/>
+                <h4>Rice Kheer</h4>
+                <button class="btns">Rs 99</button><br/>
+                <button value="99" class="btn" onclick="addToCart('Rice Kheer', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_33.jpg" alt="img_33"/>
+                <h4>Black Forest</h4>
+                <button class="btns">Rs 499</button><br/>
+                <button value="499" class="btn" onclick="addToCart('Black Forest', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_34.jpg" alt="img_34"/>
+                <h4>Vanilla Cake</h4>
+                <button class="btns">Rs 450</button><br/>
+                <button value="450" class="btn" onclick="addToCart('Vanilla Cake', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_35.jpg" alt="img_35"/>
+                <h4>Egg Fry</h4>
+                <button class="btns">Rs 65</button><br/>
+                <button value="65" class="btn" onclick="addToCart('Egg Fry', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_36.jpg" alt="img_36"/>
+                <h4>Tomato Soup</h4>
+                <button class="btns">Rs 150</button><br/>
+                <button value="150" class="btn" onclick="addToCart('Tomato Soup', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_37.jpg" alt="img_37"/>
+                <h4>Rasam</h4>
+                <button class="btns">Rs 30</button><br/>
+                <button value="30" class="btn" onclick="addToCart('Rasam', 30)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_38.jpg" alt="img_38"/>
+                <h4>Chocolate Shake</h4>
+                <button class="btns">Rs 100</button><br/>
+                <button value="100" class="btn" onclick="addToCart('Chocolate Shake', 100)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_39.jpg" alt="img_39"/>
+                <h4>Flower Cake</h4>
+                <button class="btns">Rs 299</button><br/>
+                <button value="299" class="btn" onclick="addToCart('Flower Cake', 299)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_40.jpg" alt="img_40"/>
+                <h4>Lemon Tea</h4>
+                <button class="btns">Rs 49</button><br/>
+                <button value="49" class="btn" onclick="addToCart('Lemon Tea', 49)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_41.jpg" alt="img_41"/>
+                <h4>Ramen</h4>
+                <button class="btns">Rs 199</button><br/>
+                <button value="199" class="btn" onclick="addToCart('Ramen', 199)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_42.jpg" alt="img_42"/>
+                <h4>Gobi Manchuri</h4>
+                <button class="btns">Rs 80</button><br/>
+                <button value="80" class="btn" onclick="addToCart('Gobi Manchuri', 80)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_43.jpg" alt="img_43"/>
+                <h4>Cake</h4>
+                <button class="btns">Rs 899</button><br/>
+                <button value="899" class="btn" onclick="addToCart('Cake', 899)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_44.jpg" alt="img_44"/>
+                <h4>Snacks Combo</h4>
+                <button class="btns">Rs 599</button><br/>
+                <button value="599" class="btn" onclick="addToCart('Snacks Combo', 599)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_45.jpg" alt="img_45"/>
+                <h4>Custard Apple</h4>
+                <button class="btns">Rs 170</button><br/>
+                <button value="170" class="btn" onclick="addToCart('Custard Apple', 170)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_46.jpg" alt="img_45"/>
+                <h4>Sugarcane Juice</h4>
+                <button class="btns">Rs 30</button><br/>
+                <button value="30" class="btn" onclick="addToCart('Sugarcane Juice', 100)">Add to cart</button> 
+            </div>
+            
+            <div class="img_box"> 
+                <img class="img" src="Images/img_47.jpg" alt="img_45"/>
+                <h4>Muskmelon Juice</h4>
+                <button class="btns">Rs 50</button><br/>
+                <button value="50" class="btn" onclick="addToCart('Muskmelon Juice', 50)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_48.jpg" alt="img_45"/>
+                <h4>Shankarpali</h4>
+                <button class="btns">Rs 50</button><br/>
+                <button value="50" class="btn" onclick="addToCart('Shankarpali', 50)">Add to cart</button> 
+            </div>
+            <div class="img_box"> 
+                <img class="img" src="Images/img_49.jpg" alt="img_45"/>
+                <h4>Fish Thali</h4>
+                <button class="btns">Rs 130</button><br/>
+                <button value="130" class="btn" onclick="addToCart('Fish Thali', 100)">Add to cart</button> 
+            </div>
+        
+           
+            
+            <div id="selected-items">
+                <h4 id = "sl">Selected Items:</h4>
+                <ul id="item-list"></ul>
+                <h2>Total: Rs <span id="total-price">0</span></h2>
+                <button id="confirm-order-btn" onclick="confirmOrder()">Confirm Order</button>
+                <h4 id = "confirm_message"></h4>
+                            </div>
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>
+
+    
+
+    
+    
+    <!-- Price calculation and additional controls -->
+    <!-- <input type="button" value="Remove an item" class="extra" onclick="display('-')"/>
+    <input type="button" value="Add an item" class="extra" onclick="display('+')"/><br/>
+    <input type="text" id="price" disabled/>
+    <input type="button" value="=" onclick="calculate()"/> -->
+</div>
+</div>
+</body>
+</html>
